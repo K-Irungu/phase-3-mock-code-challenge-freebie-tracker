@@ -12,6 +12,8 @@ Dev.create(name: "Gazorpazop")
 
 puts "Creating freebies..."
 
+Freebie.create(item_name: "Water bottle" , value: 10)
+
 # ***************************************************************
 # * TODO: create freebies! Remember, a freebie belongs to a dev *
 # * and a freebie belongs to a company.                         *
